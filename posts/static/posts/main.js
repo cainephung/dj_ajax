@@ -191,6 +191,7 @@ const myDropzone = new Dropzone ('#my-dropzone', {
     init: function() {
     this.on('sending', function(file,xhr,formData){
         formData.append('csrfmiddlewaretoken',csrftoken)
+        formData.append ( 'new_post_id', newPostId)
     })
 }})
 

@@ -21,11 +21,16 @@ profileform.addEventListener('submit',e=>{
         enctype: 'multipart/form-data',
         data: formData,
         success: function (response) {
-            console. log (response)
+            console.log (response)
+            avatarBox. innerHTML =`
+            <img src="${response.avatar}" class="rounded" height="200px" width="auto" alt="${response.user}">
+            `
+            bioInput.value = response.bio
+            handleAlerts( 'success','your profile has been updated!')
         },
         
         error: function (error){
-        console. log (error)
+        console.log (error)
         }, 
         processData: false, 
         contentType: false, 

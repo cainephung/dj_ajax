@@ -12,6 +12,7 @@ const body = document.getElementById('id_body')
 const csrf = document.getElementsByName('csrfmiddlewaretoken')
 const alertBox = document.getElementById("alert-box")
 const url = window.location.href
+const addBtn = document. getElementById ( 'add-btn' )
 
 
 const getCookie=(name) =>{

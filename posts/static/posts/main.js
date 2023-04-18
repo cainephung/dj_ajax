@@ -186,4 +186,13 @@ closeBtns. forEach (btn => btn. addEventListener('click', ()=>{
 }))
 
 Dropzone.autoDiscover = false
+
+const myDropzone = new Dropzone ('#my-dropzone', {
+url: 'upload/'
+init: function() {
+FormData. append (name: string, value:
+this.on('sending', function(fi string_I_Blob, fileName?: string): void
+formData.append 'csrfmiddlewaretoken'
+})
+
 getData()

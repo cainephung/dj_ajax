@@ -148,7 +148,7 @@ postForm.addEventListener('submit', e=>{
             <div class = 'card-footer'>
                 <div class = 'row'>
                     <div class = 'col-2'>
-                        <a href="#" class="btn btn-primary">Details</a>
+                        <a href="${url}${element.id}" class="btn btn-primary">Details</a>
                     </div>
                     <div class = 'col-2'>
                         <form class='like-unlike-forms' data-form-id='${response.id}'>

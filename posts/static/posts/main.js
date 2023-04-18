@@ -171,8 +171,10 @@ postForm.addEventListener('submit', e=>{
             postForm.reset()
 
         }
-    })
+    })   
+})
 
-   
+addBtn. addEventListener('click', ()=> {
+    dropozone. classList. remove ('not-visible')
 })
 getData()

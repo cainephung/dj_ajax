@@ -177,4 +177,11 @@ postForm.addEventListener('submit', e=>{
 addBtn. addEventListener('click', ()=> {
     dropozone. classList. remove ('not-visible')
 })
+
+closeBtns. forEach (btn => btn. addEventListener('click', ()=>{
+    postForm. reset ()
+    if (!dropozone. classList. contains ('not-visible')) {
+        dropozone.classList.add( 'not-visible')
+    }
+}))
 getData()

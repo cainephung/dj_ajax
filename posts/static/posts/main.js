@@ -184,4 +184,6 @@ closeBtns. forEach (btn => btn. addEventListener('click', ()=>{
         dropozone.classList.add( 'not-visible')
     }
 }))
+
+Dropzone.autoDiscover = false
 getData()

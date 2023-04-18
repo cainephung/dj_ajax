@@ -11,8 +11,8 @@ const title = document.getElementById('id_title')
 const body = document.getElementById('id_body')
 const csrf = document.getElementsByName('csrfmiddlewaretoken')
 const alertBox = document.getElementById("alert-box")
-console.log('csrf',csrf[0].value)
 const url = window.location.href
+
 
 const getCookie=(name) =>{
     let cookieValue = null;

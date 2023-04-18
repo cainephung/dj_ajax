@@ -13,7 +13,7 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 const alertBox = document.getElementById("alert-box")
 const url = window.location.href
 const addBtn = document. getElementById ( 'add-btn' )
-const closet = document.getElementsByClassName ('add-modal')
+const closeBtn = [...document.getElementsByClassName ('add-modal-close')]
 
 
 

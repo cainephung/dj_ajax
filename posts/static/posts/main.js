@@ -198,6 +198,6 @@ const myDropzone = new Dropzone ('#my-dropzone', {
 },
 maxFiles: 5, 
 maxFilesize: 4,
-acceptedFiles: 'png, •jpg,jpeg'
+acceptedFiles: '.png, .jpg, .jpeg'
 })
 getData()
